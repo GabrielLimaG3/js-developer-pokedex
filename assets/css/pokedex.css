@@ -6,6 +6,16 @@
     list-style: none;
 }
 
+.pokemon-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+.content{
+    display: grid;
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -132,11 +142,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding: 1rem;
 }
-
+.container-pagination{
+    display: inline-flex;
+    justify-content: center;
+}
 .pagination button {
+
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
